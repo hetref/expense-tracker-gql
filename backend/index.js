@@ -61,7 +61,7 @@ await server.start();
 await connectDB();
 
 app.use(
-  "/",
+  "/graphql",
   cors({
     origin: "http://localhost:3000",
     credentials: true,
